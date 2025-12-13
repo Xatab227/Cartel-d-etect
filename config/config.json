@@ -1,0 +1,22 @@
+{
+  "hashDatabase": "hashes.txt",
+  "triggerWordsFile": "triggers.txt",
+  "scanDirectories": [
+    "%APPDATA%/Microsoft/Windows/Recent",
+    "C:/Windows/Prefetch"
+  ],
+  "browserLogFiles": [
+    "logs/browser_activity.log"
+  ],
+  "discordLogFiles": [
+    "logs/discord_activity.log"
+  ],
+  "keywords": ["чит", "cheat", "vanish"],
+  "domains": ["cheat-site.example", "modmenu.example"],
+  "weights": {
+    "hashMatch": 40,
+    "keywordMatch": 15,
+    "domainMatch": 20,
+    "discordMatch": 25
+  }
+}
